@@ -51,7 +51,7 @@ class _LoadingPageState extends State<LoadingPage> with WidgetsBindingObserver {
       body: Center(
         child: FutureBuilder(
           future: _checkGPSLocationPermission(context),
-          builder: (context, snapshot) {
+          builder: (_, snapshot) {
             if (snapshot.hasData) {
               return Text(snapshot.data);
             } else {
