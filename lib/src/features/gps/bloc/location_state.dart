@@ -14,3 +14,15 @@ abstract class LocationState {
 }
 
 class LocationInitial extends LocationState {}
+
+class LocationTracking extends LocationState {
+  LocationTracking({
+    @required bool track,
+    @required bool locationExists,
+    @required LatLng currentLocation,
+  }) : super(
+          track: track,
+          locationExists: locationExists,
+          currentLocation: currentLocation,
+        );
+}
