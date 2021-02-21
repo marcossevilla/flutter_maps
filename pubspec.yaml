@@ -11,8 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
   animate_do: ^1.7.5
   cupertino_icons: ^1.0.0
+  geolocator: ^6.2.0
   google_maps_flutter: ^1.1.1
   permission_handler: ^5.0.1+1
 

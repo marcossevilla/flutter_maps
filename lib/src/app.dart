@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// import 'features/gps/views/gps_access_page.dart';
 import 'features/gps/views/loading_page.dart';
 
 class FlutterMapsApp extends StatelessWidget {
@@ -8,6 +9,7 @@ class FlutterMapsApp extends StatelessWidget {
     return MaterialApp(
       title: 'FlutterMaps',
       home: LoadingPage(),
+      theme: ThemeData(primaryColor: Colors.black),
     );
   }
 }
